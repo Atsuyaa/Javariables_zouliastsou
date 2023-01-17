@@ -43,6 +43,7 @@ public class Variables {
         Scanner scanInput  = new Scanner(System.in);
         System.out.print("Saisir une chaîne A : ");
         String strA = scanInput.next();
+        repet(intA,StrA);
         System.out.print("Saisir une chaîne B : ");
         String strB = scanInput.next();
         String strAplusB = strA + " " + strB;
@@ -67,4 +68,16 @@ public class Variables {
         // --------------------------------------------------
         
     }
+    public static void repet(Int nbRepet, String chaineRepet ){
+        
+        
+        Scanner input = new Scanner (System.in);
+        System.out.println("Saisir un entier qui permet de repeter un string");
+        int IntA = input.nextInt();
+        
+        Scanner input = new Scanner (System.in);
+        System.out.println("Saisir un string qui sera repeter le nb de fois de int" );
+        String StrA = input.next();
+   }
+
 }
